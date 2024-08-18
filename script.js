@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const EVENTS_DELAY = 20000;
 
     const games = {
-    const games = {
         1: {
             name: 'Riding Extreme 3D',
             appToken: 'd28721be-fd2d-4b45-869e-9f253b554e50',
