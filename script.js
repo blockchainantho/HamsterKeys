@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const EVENTS_DELAY = 20000;
-
     const games = {
         1: {
             name: 'Riding Extreme 3D',
@@ -44,6 +42,13 @@ document.addEventListener('DOMContentLoaded', () => {
             eventsDelay: 20000,
             attemptsNumber: 10,
             
+        },
+        7: {
+            name: 'Polysphere',
+        appToken: '2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71',
+        promoId: '2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71',
+        eventsDelay: 20000,
+        attemptsNumber: 20,
         }
     };
 
