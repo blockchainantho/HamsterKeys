@@ -1,74 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><meta charset="utf-8">
+<title>Redirecting to https://hamsterkeygen.vercel.app/</title>
+<meta http-equiv="refresh" content="0; URL=https://hamsterkeygen.vercel.app/">
+<link rel="canonical" href="https://hamsterkeygen.vercel.app/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamster Komabt Codes Generator</title>
+    <title>Game Promo Code Generator</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
-    <main class="main-container">
-        <section class="language-selector">
-            <select id="languageSelect">
-                <option value="ru">Русский</option>
-                <option value="en">English</option>
-                <option value="sr">Српски</option>
-                <option value="be">Беларуская</option>
-                <option value="ar">العربية</option>
-                <option value="fa">فارسی</option>
-                <option value="es">Español</option>
-                <option value="fr">Français</option>
-                <option value="de">Deutsch</option>
-                <option value="it">Italiano</option>
-                <option value="pt">Português</option>
-                <option value="zh">简体中文</option>
-                <option value="ja">日本語</option>
-                <option value="ko">한국어</option>
-                <option value="hi">हिन्दी</option>
-                <option value="tr">Türkçe</option>
-                <option value="pl">Polski</option>
-            </select>
-        </section>
-        <section class="container">
-                    <h1>Hamster Kombat Codes Generator</h1><h2>By <a href="https://whatsapp.com/channel/0029VacXVLtF1YlLF0XDlv3z">AIRDROP DESK</a></h2>
-            <label for="gameSelect" id="gameSelectLabel">Select a game to generate a key:</label>
+    <div class="container">
+        <h1>Hamster Kombat Codes Generator</h1><h3>By <a href="https://whatsapp.com/channel/0029VacXVLtF1YlLF0XDlv3z">AIRDROP DESK</a></h3>
+        <div class="form-group">
+            <label for="gameSelect">Select Game:</label>
             <select id="gameSelect">
-                <option value="MyCloneArmy">My Clone Army</option>
-                <option value="ChainCube2048">Chain Cube 2048</option>
-                <option value="TrainMiner">Train Miner</option>
-                <option value="BikeRide3D">Bike Ride 3D</option>
-                <option value="MergeAway">Merge Away</option>
-                <option value="TwerkRace">Twerk Race</option>
-                <option value="Polysphere">Polysphere</option>
+                <option value="1">Riding Extreme 3D</option>
+                <option value="2">Chain Cube 2048</option>
+                <option value="3">My Clone Army</option>
+                <option value="4">Train Miner</option>
+                <option value="5">Merge Away</option>
+<option value="6">Twerk Race 3D</option>
             </select>
-            <label for="keyCountSelect" id="keyCountLabel">Select the number of keys to generate:</label>
+        </div>
+        <div class="form-group">
+            <label for="keyCountSelect">Select Number of Keys:</label>
             <select id="keyCountSelect">
                 <option value="1">1</option>
                 <option value="2">2</option>
-                <option value="3">3</option>
                 <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
                 <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
                 <option value="12">12</option>
             </select>
-            <button id="startBtn" class="button">Generate keys</button>
-            <div id="progressContainer" class="progress-container hidden">
-                <div id="progressBar" class="progress-bar"></div>
-                <span id="progressText" class="progress-text">0%</span>
+        </div>
+        <button id="startBtn">Generate Keys</button>
+
+        <div id="progressContainer" class="hidden">
+            <div class="progress-bar">
+                <div id="progressBar"></div>
             </div>
-            <div id="keyContainer" class="key-container hidden">
-                <h2 id="generatedKeysTitle">Generated keys:</h2>
-                <button id="copyAllBtn" class="button hidden">Copy all keys</button>
-                <div id="keysList" class="keys-list"></div>
-            </div>
-        </section>
-        <button id="creatorChannelBtn" class="button footer-button">Follow Airdrop Desk</button>
-    </main>
+            <p id="progressText">0%</p>
+            <p id="progressLog">Starting...</p>
+        </div>
+
+        <div id="keyContainer" class="hidden">
+            <h2 id="generatedKeysTitle" class="hidden">Generated Keys</h2>
+            <div id="keysList"></div>
+            <button id="copyAllBtn" class="hidden">Copy All Keys</button>
+        </div>
+
+        <p id="keyCountLabel">Number of keys:</p>
+
+        <button id="generateMoreBtn">Generate More Keys</button>
+        <button id="creatorChannelBtn">Contact Creator</button>
+        <p id="copyStatus" class="hidden">Keys copied to clipboard!</p>
+        
+        <div class="footer">
+            <p>Please 🙏 Follow us on our Whatsapp channel</p>
+            <button id="whatsappChannelBtn">Check AIRDROP DESK Whatsapp Channel</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
