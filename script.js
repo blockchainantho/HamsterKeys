@@ -1,6 +1,5 @@
 
   document.addEventListener('DOMContentLoaded', () => {
-    const EVENTS_DELAY = 20000;
     const games = {
         1: {
             name: 'Bike Ride 3D',
@@ -271,4 +270,5 @@
     const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
     const delayRandom = () => Math.random() / 3 + 1;
-});
+  };
+  });
