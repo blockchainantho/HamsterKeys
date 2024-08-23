@@ -271,4 +271,5 @@
 
     const delayRandom = () => Math.random() / 3 + 1;
   }
+ };                          
   });
